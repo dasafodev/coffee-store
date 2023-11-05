@@ -6,7 +6,7 @@ import { Coffee } from './coffee';
 @Injectable({
   providedIn: 'root',
 })
-export class AppService {
+export class CoffeeListService {
   constructor(private http: HttpClient) {}
 
   getStock(): Observable<Coffee[]> {
